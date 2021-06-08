@@ -2,7 +2,7 @@ import paramiko
 
 router_ip = "10.1.1.5"
 router_username = "admin"
-router_password = "Cisco123"
+router_password = "@@@@"
 
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
@@ -31,7 +31,7 @@ from paramiko import AutoAddPolicy
 
 router_ip = "10.1.1.5"
 router_username = "admin"
-router_password = "Cisco123"
+router_password = "@@@@"
 
 
 
