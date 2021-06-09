@@ -5,7 +5,11 @@ base_url = "https://dcloud-dna-center-inst-rtp.cisco.com/dna/"
 auth_endpoint = "system/api/v1/auth/token"
 
 user = 'devnetuser'
+<<<<<<< HEAD
 password = '~@@@@'
+=======
+password = '@@@@@'
+>>>>>>> d5010603b08ee940749f549a035d8041b3726620
 
 auth_response = requests.post(url="https://sandboxdnac2.cisco.com/dna/system/api/v1/auth/token", auth=(user, password)).json()
 
